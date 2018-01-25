@@ -4,5 +4,5 @@
 #include <GLFW/glfw3.h>
 
 typedef GLFWwindow *window;
-GLFWwindow *initialize_window();
+window initialize_window();
 void finalize_window();

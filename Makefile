@@ -29,4 +29,4 @@ $(GAME): $(BUILD_DIR)/main.o $(OBJS)
 	$(CC) $^ $(LINKER_FLAGS) -o $@
 
 clean:
-	rm $(BUILD_DIR)/*.o
+	rm $(BUILD_DIR)/*.o -f

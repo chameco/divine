@@ -3,7 +3,7 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 
-GLFWwindow *initialize_window()
+window initialize_window()
 {
 	glfwInit();
 
